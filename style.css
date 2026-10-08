@@ -569,10 +569,17 @@ html {
 .h2-top-rb {
     color: white;
     font-family: "Karla";
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.section-info {
+    margin-top: 8rem;
 }
 
 .title-rb-central {
     color: tomato;
+    margin: 0 auto;
     font-family: "Protest Riot";
     font-weight: 400;
     line-height: 150px;
@@ -586,7 +593,7 @@ html {
     position: absolute;
     z-index: -5;
     width: 52rem;
-    transform: translateY(-20rem) translateX(-20rem);
+    transform: translateY(-20rem);
 }
 
 .light-rb-2-detalle{
@@ -604,14 +611,9 @@ html {
     border-radius: 8px;
     padding: 24px;
     font-family: "Karla";
-    width: 800px;
+    width: 100%;
     font-size: 45px;
-    line-height: 55px;
-    box-shadow: 0 0 224px #ff634765;
-    position: absolute;
-    right: 0;
-    margin-right: 4rem;
-    transform: translateY(-40rem);
+    line-height: 55px; 
 }
 
 .div-text-obj-rb {
