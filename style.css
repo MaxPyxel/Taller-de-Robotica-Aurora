@@ -575,8 +575,11 @@ html {
     color: tomato;
     font-family: "Protest Riot";
     font-weight: 400;
+    line-height: 150px;
     font-size: 164px;
     margin-bottom: 1px;
+    text-align: center;
+    width: max-content;
 }
 
 .light-rb-1-detalle{
@@ -601,14 +604,14 @@ html {
     border-radius: 8px;
     padding: 24px;
     font-family: "Karla";
-    width: 540px;
-    font-size: 35px;
-    line-height: 45px;
+    width: 800px;
+    font-size: 45px;
+    line-height: 55px;
     box-shadow: 0 0 224px #ff634765;
     position: absolute;
     right: 0;
     margin-right: 4rem;
-    transform: translateY(-30rem);
+    transform: translateY(-40rem);
 }
 
 .div-text-obj-rb {
@@ -671,6 +674,11 @@ html {
     font-size: 25px;
     font-family: "Karla";
     margin: 0 auto;
+}
+
+.span-7 {
+    font-family: "Rubik Dirt";
+    color: white;
 }
 
 @media (max-width: 1650px) {
